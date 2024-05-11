@@ -40,3 +40,8 @@ If you have any questions or suggestions, feel free to reach out to me. Happy sh
 ## Note
 
 ** Please add your personal information such as mail, phoneno.,etc. in the project whereever required for the proper functioning of the project and also add required modules too. **
+
+## PDF Link
+
+[System Design and Implementation Screenshots.pdf](https://github.com/Hunaid53/H-Shop_E-commerce_Website_Django/blob/main/System%20Design%20and%20Implementation%20Screenshots.pdf)
+
