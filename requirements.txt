@@ -1,0 +1,7 @@
+jasmine module --> pip install django-jazzmin
+
+razorpay module --> pip install razorpay
+
+setuptools module --> pip install setuptools
+
+pillow module --> pip install pillow
