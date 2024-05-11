@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-H-shop is a comprehensive e-commerce website developed using the Django framework. It is designed to provide a seamless shopping experience for users and easy management for vendors and admins.
+H-Shop is a comprehensive e-commerce website developed using the Django framework. It is designed to provide a seamless shopping experience for users and easy management for vendors and admins.
 
 ## Features
 
@@ -31,12 +31,12 @@ H-shop is a comprehensive e-commerce website developed using the Django framewor
 
 ## Source Code
 
-The source code for this project is available on GitHub. You can find the link in my LinkedIn profile.
+The source code for this project is available on GitHub. You can find the link in my LinkedIn profile. Also check my Linkedin Profile for the project video.
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to me. Happy shopping with H-shop!
+If you have any questions or suggestions, feel free to reach out to me. Happy shopping with H-Shop!
 
 ## Note
 
-** Please add your personal information such as mail, phoneno.,etc. in the project whereever required for the proper functioning of the project and also add required modules too.
+** Please add your personal information such as mail, phoneno.,etc. in the project whereever required for the proper functioning of the project and also add required modules too. **
