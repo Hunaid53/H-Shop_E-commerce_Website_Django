@@ -1,4 +1,4 @@
-# H-shop: E-commerce Website
+# H-Shop: E-commerce Website
 
 ## Project Overview
 
