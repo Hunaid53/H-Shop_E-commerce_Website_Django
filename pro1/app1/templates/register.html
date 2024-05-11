@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+
+        {% block abc %}
+        <section  style="height:89vh; background-image: url(../../media/BG/bg\ \(2\).jpeg); background-size: cover; background-repeat: no-repeat; background-position: center;">
+            <div class="container py-5 h-100">
+              <div class="row justify-content-center align-items-center h-100">
+                <div class="col-12 col-lg-9 col-xl-7">
+                  <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                    <div class="card-body p-4 p-md-5">
+                      <h3 class="mb-4 pb-2 pb-md-0 mb-md-5" style="font-weight: bold;">Registration Form</h3>
+                      <form method="post">
+                        {% csrf_token %}
+          
+                     <div class="row">
+                          <div class="col-md-6 mb-4">
+                            <div class="form-outline">
+                              <label class="form-label" for="firstName">User Name</label>
+                              <input type="text" id="firstName" name="name" class="form-control form-control-lg" />
+
+                            </div>
+          
+                          </div>
+                          <div class="col-md-6 mb-4">
+                            <div class="form-outline">
+                                <label class="form-label" for="emailAddress">Email</label>
+                                <input type="email" id="emailAddress" name="email" class="form-control form-control-lg" />
+                              </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6 mb-4 pb-2">
+          
+                            <div class="form-outline">
+                                <label class="form-label" for="lastName">Address</label>
+                                <textarea name="address" id="lastName" class="form-control form-control-lg"></textarea>
+                                <!-- <input type="text" id=""  /> -->
+                              </div>
+          
+                          </div>
+                          <div class="col-md-6 mb-4 pb-2">
+          
+                            <div class="form-outline">
+                              <label class="form-label" for="phoneNumber">Phone Number</label>
+                              <input type="tel" id="phoneNumber" name="number" class="form-control form-control-lg" />
+                            </div>
+          
+                          </div>
+                        </div>
+          
+                        <div class="row">
+                          <div class="col-md-6 mb-4">
+                            <div class="form-outline">
+                              <label class="form-label" for="emailAddress">Password</label>
+                              <input type="password" id="emailAddress" name="password" class="form-control form-control-lg" />
+                            </div>
+
+                          </div>
+                            
+                        </div>
+
+                        {% comment %} {{form}} {% endcomment %}
+                        <div class="mt-4 pt-2">
+                          <input class="btn btn-primary btn-lg" type="submit" value="Submit" style="height: fit-content; width: 100%;"/>
+                        </div>
+          
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          {% if m %}
+          <script>alert("{{m}}")</script>
+          {% endif %}
+
+{% endblock %}
