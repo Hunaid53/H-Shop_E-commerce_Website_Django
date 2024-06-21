@@ -147,8 +147,8 @@ MEDIA_URL='/media/'
 # python manage.py runserver  
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST_USER = 'ritobo7228@bsomek.com'  # TODO: Your email
+EMAIL_HOST_USER = 'hunaidsiamwala53@gmail.com'  # TODO: Your email
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_PASSWORD = 'uvcr mmpp umvz abcd'  # TODO: Give your APP Password here from Google Account in that search for "App Password" and add your application there to get a unique host password
+EMAIL_HOST_PASSWORD = 'hafi gkci asmt fueh'  # TODO: Give your APP Password here from Google Account in that search for "App Password" and add your application there to get a unique host password
 EMAIL_USE_TLS = True
